@@ -79,6 +79,10 @@ hr {
     
 }
 
+.navigation-column {
+    padding-bottom: 50px;
+}
+
 .navigation-links {
     padding: 10px 20px;
     border-radius: var(--border-radius);
