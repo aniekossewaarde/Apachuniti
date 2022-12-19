@@ -12,9 +12,9 @@ body {
 
 h1 {
     color: var(--light-color);
-    text-align: center;
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 900;
+    text-align: center;
 }
 
 h2 {
@@ -23,6 +23,12 @@ h2 {
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 45px;
+    background:var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+hr {
+    color: var(--secondary-color)
 }
 
 .logo {
@@ -47,12 +53,14 @@ h2 {
     text-decoration: none;
     font-family: 'Caveat', cursive;
     font-size: 28px;
+    
 }
 
 .navigation-links {
     padding: 10px 20px;
     border-radius: var(--border-radius);
     background: var(--secondary-color);
+    
     
 }
 
@@ -61,4 +69,16 @@ h2 {
     background: var(--light-color);
     transition: all 150ms ease-in-out;
     border: var(--border);
+}
+
+.profile-photo {
+    padding: 10px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    width: 400px;
+    margin-top: 10px;
+}
+
+.profile-element {
+    margin-top: 30px;
 }
