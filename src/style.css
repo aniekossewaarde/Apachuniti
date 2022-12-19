@@ -2,6 +2,8 @@
     --primary-color: #005792;
     --secondary-color: #2772db;
     --light-color: #f7f7f7;
+    --border: 1px solid #2772db;
+    --border-radius: 7px;
 }
 
 body {
@@ -31,4 +33,32 @@ h2 {
     background: var(--secondary-color);
     margin-top: 100px;
     padding: 100px;
+    border-radius: var(--border-radius);
+}
+
+.navigation-element {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navigation-element a {
+    color: var(--light-color);
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+.navigation-links {
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    background: var(--secondary-color);
+    
+}
+
+.navigation-links:hover {
+    color: var(--secondary-color);
+    background: var(--light-color);
+    transition: all 150ms ease-in-out;
+    border: var(--border);
 }
