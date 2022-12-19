@@ -10,35 +10,6 @@ body {
     font-family: 'Catamaran', sans-serif;
 }
 
-
-@media (min-width: 768px) {
-h1 {
-    color: var(--light-color);
-    font-size: 80px;
-    font-weight: 900;
-    text-align: center;
-}
-}
-
-@media (max-width: 767px) {
-    h1 {
-        color: var(--light-color);
-        font-size: 58px;
-        font-weight: 900;
-        text-align: center;
-    }
-
-    h2 {
-        color: var(--light-color);
-        text-align: center;
-        font-family: 'Caveat', cursive;
-        font-size: 35px;
-        background:var(--secondary-color);
-        border-radius: var(--border-radius);
-    }
-
-}
-
 h2 {
     color: var(--light-color);
     padding: 10px;
@@ -102,10 +73,48 @@ hr {
     padding: 10px;
     border: var(--border);
     border-radius: var(--border-radius);
-    width: 400px;
-    margin-top: 10px;
+    width: 450px;
+    margin-top: 30px;
 }
 
 .profile-element {
     margin-top: 30px;
 }
+
+@media (min-width: 768px) {
+    h1 {
+        color: var(--light-color);
+        font-size: 80px;
+        font-weight: 900;
+        text-align: center;
+    }
+    }
+    
+    @media (max-width: 767px) {
+        h1 {
+            color: var(--light-color);
+            font-size: 58px;
+            font-weight: 900;
+            text-align: center;
+        }
+    
+        h2 {
+            color: var(--light-color);
+            text-align: center;
+            font-family: 'Caveat', cursive;
+            font-size: 35px;
+            background:var(--secondary-color);
+            border-radius: var(--border-radius);
+        }
+
+        .profile-photo {
+            padding: 10px;
+            border: var(--border);
+            border-radius: var(--border-radius);
+            width: 360px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    
+    }
