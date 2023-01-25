@@ -20,6 +20,7 @@ h2 {
     border-radius: var(--border-radius);
 }
 
+
 hr {
     color: var(--secondary-color)
 }
@@ -79,6 +80,16 @@ hr {
 
 .profile-element {
     margin-top: 30px;
+}
+
+.contact-banner {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {
