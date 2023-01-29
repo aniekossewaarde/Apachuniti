@@ -178,4 +178,12 @@ footer a:hover {
             margin-top: 10px;
         }
     
+        .company-list {
+            font-size: 17px;
+            margin-left: 0px;
+         }
+
+         .company-bullet-points {
+            margin: 0px;
+        }
     }
