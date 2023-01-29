@@ -77,8 +77,9 @@ footer a:hover {
     padding: 10px 20px;
     border-radius: var(--border-radius);
     background: var(--secondary-color);
-    
-    
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
 }
 
 .navigation-links:hover {
@@ -133,6 +134,11 @@ footer a:hover {
 
 .company-bullet-points {
     margin: 0px 100px;
+}
+
+.application-button {
+    font-size: 20px;
+    margin-left: 110px;
 }
 
 @media (min-width: 768px) {
