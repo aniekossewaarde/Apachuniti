@@ -115,7 +115,25 @@ footer a:hover {
 }
 
 .about-us-subjects {
-    font-style: italic;
+    font-style: italic;}
+
+.companies-header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.company-list {
+   font-size: 17px;
+   margin-left: 114px;
+}
+
+.company-text {
+    margin: 50px 10px;
+}
+
+.company-bullet-points {
+    margin: 0px 100px;
+}
 
 @media (min-width: 768px) {
     h1 {
@@ -124,6 +142,7 @@ footer a:hover {
         font-weight: 900;
         text-align: center;
     }
+
     }
     
     @media (max-width: 767px) {
