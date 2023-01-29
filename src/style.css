@@ -110,6 +110,13 @@ footer a:hover {
     color: var(--secondary-color);
 }
 
+.about-us-info {
+    font-size: 14px;
+}
+
+.about-us-subjects {
+    font-style: italic;
+
 @media (min-width: 768px) {
     h1 {
         color: var(--light-color);
